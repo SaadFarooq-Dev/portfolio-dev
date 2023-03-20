@@ -20,7 +20,7 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
+  realEstate,
   tripguide,
   threejs,
 } from "../assets";
@@ -219,10 +219,14 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Real Estate",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for rental property as well as buy property, view price ranges for properties, and locate available properties based on their location.",
     tags: [
+      {
+        name: "nextJS",
+        color: "black-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
@@ -232,12 +236,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "rapidApi",
+        color: "blue-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: realEstate,
+    source_code_link: "https://github.com/SaadFarooq-Dev/real-estate-app",
   },
   {
     name: "Trip Guide",
