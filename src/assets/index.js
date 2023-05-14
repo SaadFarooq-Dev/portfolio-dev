@@ -26,7 +26,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import chatApp from "./chatApp.png";
 import realEstate from "./realEstate.png";
 import tripguide from "./tripguide.png";
 
@@ -56,7 +56,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  chatApp,
   realEstate,
   tripguide,
 };

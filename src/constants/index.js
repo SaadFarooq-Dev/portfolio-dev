@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  chatApp,
   realEstate,
   tripguide,
   threejs,
@@ -198,25 +198,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Chat App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to chat with each others in real time. Create groups and chat within it",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "nextJs",
+        color: "gray-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "supabase",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: chatApp,
+    source_code_link: "https://github.com/SaadFarooq-Dev/chat-app-superbase",
   },
   {
     name: "Real Estate",
